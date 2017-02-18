@@ -1,0 +1,60 @@
+#header{
+	width:97vw;
+	height:50px;
+}
+#body{
+	margin-top: 10;
+	background:oldlace;
+	width: 97vw;
+	height:83vh;
+}
+#footer{
+	width: 97vw;
+	height:5vh;
+}
+#top-panel-company-name{
+	margin-top: 100px;
+	padding-top: 30px;
+	color: green;
+}	
+#main-context{
+	background: grey;
+	width: 50vw;
+    height: 250px;
+    position: relative;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+#sub-context{
+	background: skyblue;
+	width: 50vw;
+    height: 250px;
+    position: relative;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+#sub-context-block{
+	background: yellow;
+	margin: 10px;
+	width: 95%;
+	height: 25%;
+}
+#sub-context-right-blocks{
+	margin: auto;
+	position: absolute;
+	top: 0; left: 50%; bottom: 0; right: 0;
+}
+#sub-context-left-blocks{
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 50%;
+}
+.separation-line{
+	border-bottom: 2px solid maroon;
+	padding-bottom: 5px;
+}
+.context-button{
+	margin: auto;
+	position: absolute;
+	top: 70%; left: 0; bottom: 5%; right: 0;
+}
