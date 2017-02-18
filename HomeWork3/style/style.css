@@ -1,0 +1,68 @@
+.main{
+	width: 60%;
+	position: absolute;
+	left: 20%;
+	right: 20%;
+}
+.header div {
+	display: inline-block;
+	margin: 20px;
+}
+.header .company{ 
+	float: left;
+	color: grey;
+}
+.header .navigation {
+	float: right;
+}
+.header .navigation a{
+	padding: 4px;
+	border-radius: 3px;
+	color: lightblue;
+}
+.header .navigation a:hover{
+	color:  #FFFFFF;
+	background-color: blue;
+	border: 5px;
+}
+.context{
+	margin: 20px;
+	margin-top: 70px;
+	padding: 10px;
+	text-align:center;
+	background-color: lightgrey;
+	border-bottom: 1px;
+}
+.context h5{
+	margin-top: 10px;
+	text-align: center;
+}
+.context h1{
+	margin: 0;
+}
+.context h2{
+	text-align: center;
+}
+.context-button{
+	background-color: green;
+	border-radius: 3px;
+	padding: 10px;
+	border: none;
+}
+.sub-block{
+	margin: 8px;
+}
+.sub-block .row{
+	width: 100%;
+	margin-left: 100px;
+}
+.sub-block .row .subheading{
+	display: inline-block;
+	width: calc(50% - 40px);
+	margin: 0;
+}
+.footer{
+	color: grey;
+}
+
+
