@@ -1,0 +1,65 @@
+*{
+	border: 1px solid red;
+}
+.main{
+	width: 60%;
+	margin-left: 20%;
+}
+.header{
+	padding: 7px;
+	border-bottom: 1px solid grey;
+}
+.header div {
+	display: inline-block;
+}
+.header .company{ 
+	font-size: 15px;
+	color: grey;
+}
+.header .navigation {
+	float: right;
+}
+.header .navigation a{
+	padding: 4px;
+	color: lightblue;
+	text-decoration: none;
+}
+.header .navigation a:hover{
+	color:  #FFFFFF;
+	background-color: blue;
+	border-radius: 3px;
+}
+.context{
+	text-align:center;
+	background-color: lightgrey;
+	border-radius: 3px;
+	margin: 10px;
+	padding: 10px;
+	border: 5px;
+}
+.context-button{
+	background-color: green;
+	border-radius: 4px;
+	padding: 10px 20px;
+	border: none;
+}
+.sub-block{
+	padding: 20px;
+}
+.sub-block .row{
+	width: 100%;
+}
+.sub-block .row .subheading{
+	display: inline-block;
+	width: calc(50% - 40px);
+	margin: 0;
+}
+.sub-block .row .subheading:last-child{
+	float: right;
+}
+.footer{
+	padding: 3px;
+	color: grey;
+}
+
+
