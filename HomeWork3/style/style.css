@@ -1,15 +1,19 @@
+*{
+	border: 1px solid red;
+}
 .main{
 	width: 60%;
-	position: absolute;
-	left: 20%;
-	right: 20%;
+	margin-left: 20%;
+}
+.header{
+	padding: 7px;
+	border-bottom: 1px solid grey;
 }
 .header div {
 	display: inline-block;
-	margin: 20px;
 }
 .header .company{ 
-	float: left;
+	font-size: 15px;
 	color: grey;
 }
 .header .navigation {
@@ -17,51 +21,44 @@
 }
 .header .navigation a{
 	padding: 4px;
-	border-radius: 3px;
 	color: lightblue;
+	text-decoration: none;
 }
 .header .navigation a:hover{
 	color:  #FFFFFF;
 	background-color: blue;
-	border: 5px;
+	border-radius: 3px;
 }
 .context{
-	margin: 20px;
-	margin-top: 70px;
-	padding: 10px;
 	text-align:center;
 	background-color: lightgrey;
-	border-bottom: 1px;
-}
-.context h5{
-	margin-top: 10px;
-	text-align: center;
-}
-.context h1{
-	margin: 0;
-}
-.context h2{
-	text-align: center;
+	border-radius: 3px;
+	margin: 10px;
+	padding: 10px;
+	border: 5px;
 }
 .context-button{
 	background-color: green;
-	border-radius: 3px;
-	padding: 10px;
+	border-radius: 4px;
+	padding: 10px 20px;
 	border: none;
 }
 .sub-block{
-	margin: 8px;
+	padding: 20px;
 }
 .sub-block .row{
 	width: 100%;
-	margin-left: 100px;
 }
 .sub-block .row .subheading{
 	display: inline-block;
 	width: calc(50% - 40px);
 	margin: 0;
 }
+.sub-block .row .subheading:last-child{
+	float: right;
+}
 .footer{
+	padding: 3px;
 	color: grey;
 }
 
