@@ -1,0 +1,64 @@
+.wrapper{
+	margin: 0 50px;
+}
+.company{
+	display: block;
+	color: lightgrey;
+}
+.navigation{
+	display: block;
+	text-align: center;
+	padding: 0;
+}
+.navigation li{
+	width: 15%;
+	display: inline-block;
+	background: #ddd;
+	color: #fff;
+	padding: 10px 10px;
+	border-right: 1px solid #7b7b7b;
+}
+.navigation li:first-child{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.navigation li:last-child{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-width: 0;
+}
+.navigation li:hover{
+	box-shadow: 0 0 12px 1px #887b7b;
+	background-color: #7b7b7b;
+	cursor: pointer;
+}
+.context{
+	padding: 50px;
+	text-align: center;
+}
+.context .context-button{
+	padding: 10px 20px;
+	font-size: 20px;
+	background-color: lightgreen;
+	color: #fff;
+	border-radius: 3px;
+	border: none;
+}
+.row{
+	display: block;
+}
+.row .block{
+	vertical-align: top;
+	display: inline-block;
+	padding: 20px 0;
+	width: calc(32% - 40px);
+	margin: 0 20px;
+}
+.row .block a{
+	padding: 10px 20px;
+	background-color: blue;
+	color: #fff;
+	border-radius: 3px;
+	border: none;
+	text-decoration: none;
+}
