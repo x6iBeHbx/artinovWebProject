@@ -1,0 +1,30 @@
+*{
+	border: 1px solid red;
+}
+p{
+	padding: 10px;
+	margin: 0;
+}
+.mainScene{
+	margin: 0 100px;
+}
+.topPanel{
+	 border: 0;
+	 background-color: lightgrey;
+}
+.navigation{
+	 margin: 0 25px;
+}
+.navigation ul{
+	 background-color: grey;
+}
+.navigation li{
+	 display: inline-block;
+}
+.navigation li:hover{
+	color: white;
+	background-color: black;
+}
+
+.navigation li:first-child{
+}

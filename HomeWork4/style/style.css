@@ -11,7 +11,7 @@
 	padding: 0;
 }
 .navigation li{
-	width: 15%;
+	width: 14%;
 	display: inline-block;
 	background: #ddd;
 	color: #fff;
@@ -61,4 +61,7 @@
 	border-radius: 3px;
 	border: none;
 	text-decoration: none;
+}
+.footer{
+	color: lightgrey;
 }
