@@ -47,10 +47,17 @@
 .context{
 	text-align: center;
 }
+.context div h1{
+	font: 50px arial, sans-serif;
+	margin-bottom: 0px;
+}
+.context div h3{
+	font: 25px arial, sans-serif;
+}
 .context .context-button{
 	padding: 10px 20px;
 	font-size: 20px;
-	background-color: lightgreen;
+	background-color: #5bb15b;
 	color: #fff;
 	border-radius: 3px;
 	border: none;
@@ -73,3 +80,4 @@
 	border: none;
 	text-decoration: none;
 }
+
