@@ -53,9 +53,16 @@
 	display: inline-block;
 	width: calc(50% - 40px);
 	margin: 0;
+	color: #656161;
 }
 .sub-block .row .subheading:last-child{
 	float: right;
+}
+.sub-block .row .subheading h2{
+	margin: 10px;
+}
+.sub-block .row .subheading h4{
+	margin: 10px;
 }
 .footer{
 	padding: 3px;
