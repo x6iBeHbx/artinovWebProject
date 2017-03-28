@@ -1,30 +1,51 @@
-*{
+/**{
 	border: 1px solid red;
-}
+}*/
 p{
 	padding: 10px;
 	margin: 0;
 }
 .mainScene{
-	margin: 0 100px;
+	position: absolute;
+    right: 20%;
+    left: 20%;
+	width: 60%;
 }
 .topPanel{
 	 border: 0;
-	 background-color: lightgrey;
-}
-.navigation{
-	 margin: 0 25px;
-}
-.navigation ul{
 	 background-color: grey;
 }
+.navigation ul{
+	border-radius:6px;
+	position: relative;
+	top: 10px;
+	background-color: #3D3D3D;
+	color: lightgrey;
+	margin: 0px 25px;
+}
 .navigation li{
-	 display: inline-block;
+	display: inline-block;
 }
 .navigation li:hover{
+	cursor: pointer;
 	color: white;
 	background-color: black;
 }
-
-.navigation li:first-child{
+.topPanelContext{
+	color: white;
+	margin-top: 80px;
+	margin-left: 80px;
+	margin-right: 80px;
+	padding-bottom: 20px;
+	text-align: center;
+	font: 100% sans-serif;
 }
+.topPanelContext button{
+	color: white;
+	background-color: blue;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+}
+
