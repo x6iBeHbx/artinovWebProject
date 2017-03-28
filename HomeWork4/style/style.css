@@ -1,22 +1,34 @@
+/**{
+	border: 1px solid red;
+}*/
 .wrapper{
-	margin: 0 50px;
+	position: absolute;
+    right: 20%;
+    left: 20%;
+	width: 60%;
 }
 .company{
 	display: block;
 	color: lightgrey;
 }
+.ProjectName{
+	display: block;
+} 
 .navigation{
 	display: block;
-	text-align: center;
 	padding: 0;
 }
 .navigation li{
-	width: 14%;
+    text-align: center;
+    width: 15%;
 	display: inline-block;
 	background: #ddd;
 	color: #fff;
-	padding: 10px 10px;
-	border-right: 1px solid #7b7b7b;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+.navigation li a {
+    text-decoration: none;
 }
 .navigation li:first-child{
 	border-top-left-radius: 5px;
@@ -28,18 +40,24 @@
 	border-width: 0;
 }
 .navigation li:hover{
-	box-shadow: 0 0 12px 1px #887b7b;
-	background-color: #7b7b7b;
+	box-shadow: inset 0 0 10px #000000;
+	background-color: #ccc;
 	cursor: pointer;
 }
 .context{
-	padding: 50px;
 	text-align: center;
+}
+.context div h1{
+	font: 50px arial, sans-serif;
+	margin-bottom: 0px;
+}
+.context div h3{
+	font: 25px arial, sans-serif;
 }
 .context .context-button{
 	padding: 10px 20px;
 	font-size: 20px;
-	background-color: lightgreen;
+	background-color: #5bb15b;
 	color: #fff;
 	border-radius: 3px;
 	border: none;
@@ -50,9 +68,9 @@
 .row .block{
 	vertical-align: top;
 	display: inline-block;
-	padding: 20px 0;
-	width: calc(32% - 40px);
-	margin: 0 20px;
+    padding: 20px 0;
+    width: 32.5%;
+	margin: 0;
 }
 .row .block a{
 	padding: 10px 20px;
@@ -63,5 +81,6 @@
 	text-decoration: none;
 }
 .footer{
-	color: lightgrey;
+	font: 15px arial, sans-serif;
 }
+

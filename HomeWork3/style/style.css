@@ -1,6 +1,6 @@
-*{
+/**{
 	border: 1px solid red;
-}
+}*/
 .main{
 	width: 60%;
 	margin-left: 20%;
@@ -53,11 +53,20 @@
 	display: inline-block;
 	width: calc(50% - 40px);
 	margin: 0;
+	color: #656161;
 }
 .sub-block .row .subheading:last-child{
 	float: right;
 }
+.sub-block .row .subheading h2{
+	margin: 10px;
+}
+.sub-block .row .subheading h4{
+	margin: 10px;
+}
 .footer{
+	position: relative;
+    bottom: 0px;
 	padding: 3px;
 	color: grey;
 }
