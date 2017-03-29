@@ -19,3 +19,4 @@ asdoc-output
 /.idea/
 out/
 src/res/fla/
+*/node_modules
